@@ -4,7 +4,6 @@
 
 Andre Gras
 
-
 ## How difficult was this assignment?
 
 It was hardest at first (the first part) but I found it got easier and easier as I got better and better at it
