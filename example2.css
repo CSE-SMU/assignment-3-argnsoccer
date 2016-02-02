@@ -1,0 +1,13 @@
+.banner{
+  background-image: url("http://naturecanada.ca/wp-content/uploads/2015/11/IMG_1509-1918x475.jpg");
+  width: 100%;
+  height: 29rem;
+  position:relative;
+}
+
+#callout{
+  position: absolute;
+  top: 17rem;
+  left: 80rem;
+  border: solid black;
+}
