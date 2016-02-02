@@ -4,6 +4,113 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-  	<button class="btn btn-primary">I'm a button</button>
+    <nav class="navbar navbar-light bg-faded">
+      <div class="container">
+        <div class="nav navbar-nav">
+          <a class="navbar-brand" href="#">CSE 3345</a>
+          <a class="nav-item nav-link" href="#">Home</a>
+          <a class="nav-item nav-link active" href="#">Assignments<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Lectures</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item pull-xs-right nav-link" href="#">Logout</a>
+          <a class="nav-item pull-xs-right nav-link" href="#">Account</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style = "padding-top: 1.5rem">
+        <div class="col-md-3">
+            <ul class="list-group">
+              <l1 class="list-group-item" style= "background-color: #e9e9e9">Your Assignments</l1>
+              <li class="list-group-item list-group-item-success"><span class="label label-success label-pill pull-xs-right">92</span>Assignment #1</li>
+              <li class="list-group-item list-group-item-success"><span class="label label-success label-pill pull-xs-right">100</span>Assignment #2</li>
+              <li class="list-group-item list-group-item-warning"><span class="label label-warning label-pill pull-xs-right">74</span>Assignment #3</li>
+              <li class="list-group-item list-group-item-danger"><span class="label label-danger label-pill pull-xs-right">23</span>Assignment #4</li>
+              <li class="list-group-item list-group-item-success"><span class="label label-success label-pill pull-xs-right">95</span>Assignment #5</li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+          <h1>Assignment 1</h1>
+          <p>In this assignment, you will be making a thing!</p>
+          <div class="alert alert-success" role="alert">
+            <strong>Well done! </strong>You got a 92 on this assignment!
+          </div>
+          <div class="panel panel-default" style="padding-top: 3.5rem; padding-bottom: 2rem">
+            <div class="panel-body">
+              <h3><strong>Grading Rubric</strong></h3>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Description</th>
+                  <th>Available Points</th>
+                  <th>Your Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>1</strong></td>
+                  <td>You put the right stuff in the thing</td>
+                  <td>40</td>
+                  <td>40</td>
+                </tr>
+                <tr>
+                  <td><strong>2</strong></td>
+                  <td>You put the stuff in the right places</td>
+                  <td>40</td>
+                  <td>40</td>
+                </tr>
+                <tr>
+                  <td><strong>3</strong></td>
+                  <td>Style points</td>
+                  <td>20</td>
+                  <td>12</td>
+                </tr>
+                <tr style="background-color: #e9e9e9">
+                <td></td>
+                <td style= "text-align: right"><strong>Total</strong></td>
+                <td>100</td>
+                <td>92</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <h3><strong>Comments</strong></h3>
+            <p> In eros urna, scelerisque ut est non, ultrices ultrices nunc. Cras rhoncus diam venenatis, ultricies lectus nec, ullamcorper eros. Sed elementum sit amet nunc id vulputate. Donec a ullamcorper libero. Nulla ultricies egestas porttitor.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-block">
+                <h4><strong>Get Bonus Points</strong></h4>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce sit amet hendrerit dui, eu feugiat turpis</p>
+                <button type="button" class="btn btn-primary">Start Bonus Exercise</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 m-t-2">
+            <h3><strong>Dispute Grade</strong></h3>
+            <form class = "form m-y-1">
+              <fieldset class="form-group row">
+                <label for="inputComplaint" class="col-sm-2">Complaint</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control m-l-3" id="inputComplaint" placeholder="Your complaint">
+                </div>
+              </fieldset>
+              <fieldset class="form-group row">
+                  <label for="inReason" class="col-sm-2">Your Reason</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control m-l-3" id="inReason" rows="3" placeholder="Your reason"></textarea>
+                  </div>
+              </fieldset>
+              <fieldset class="from-group row">
+                <div class= "col-sm-offset-3 col-sm-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+    </div>
   </body>
 </html>
